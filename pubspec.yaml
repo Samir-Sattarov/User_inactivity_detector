@@ -1,7 +1,6 @@
 name: user_inactivity_detector
 description: Inactivity detector reacts to user inactivity
-version: 1.0.1
-homepage:
+version: 1.0.3
 
 repository: https://github.com/Samir-Sattarov/User_inactivity_detector.git
 

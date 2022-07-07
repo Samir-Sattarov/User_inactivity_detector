@@ -59,7 +59,7 @@ class Example extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SmartDetectorWidget(
+      body: UserInactivityDetector(
         duration: const Duration(seconds: 2),
         onStopped: () {
           print('stopped');

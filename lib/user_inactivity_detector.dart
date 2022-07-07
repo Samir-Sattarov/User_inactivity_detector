@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'service/timer_service.dart';
 
-class UserInactivityDetectorWidget extends StatefulWidget {
+class UserInactivityDetector extends StatefulWidget {
   // This plugin is needed to find out that the user does not touch the device for a certain time
 
   // Time after expiration the function ( onStopped ) will be called
@@ -16,7 +16,7 @@ class UserInactivityDetectorWidget extends StatefulWidget {
   // This is a mandatory parameter a widget is passed here to track it
   final Widget? child;
 
-  const UserInactivityDetectorWidget({
+  const UserInactivityDetector({
     Key? key,
     this.child,
     required this.duration,
@@ -25,12 +25,10 @@ class UserInactivityDetectorWidget extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<UserInactivityDetectorWidget> createState() =>
-      _UserInactivityDetectorWidgetState();
+  State<UserInactivityDetector> createState() => _UserInactivityDetectorState();
 }
 
-class _UserInactivityDetectorWidgetState
-    extends State<UserInactivityDetectorWidget> {
+class _UserInactivityDetectorState extends State<UserInactivityDetector> {
   TimerService? _timerService;
 
   @override
