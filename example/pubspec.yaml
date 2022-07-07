@@ -1,7 +1,7 @@
 name: auto_lock
-description: A new Flutter project.
+description: Example
 
-repository: https://github.com/Samir-Sattarov/Flutter-Auto-LogOut-Example.git
+repository: https://github.com/Samir-Sattarov/User_inactivity_detector.git
 
 
 version: 1.0.0+1

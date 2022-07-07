@@ -1,9 +1,9 @@
 name: user_inactivity_detector
 description: Inactivity detector reacts to user inactivity
-version: 0.0.7
+version: 1.0.0
 homepage:
 
-repository: https://github.com/Samir-Sattarov/Flutter-Auto-LogOut-Example.git
+repository: https://github.com/Samir-Sattarov/User_inactivity_detector.git
 
 environment:
   sdk: ">=2.17.5 <3.0.0" # sdk version
