@@ -12,7 +12,7 @@ Function `onStopped` will be executed when the user is inactive.
 
 bool `enabled` this is a flag if its value is `true`, everything works if it is `false`, then the function stops working
 
-*for example, you can distinguish after execution*
+*for example, you can disable after execution*
 
 
 ## Usage
