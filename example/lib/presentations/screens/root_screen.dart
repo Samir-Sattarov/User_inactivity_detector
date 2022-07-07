@@ -67,7 +67,7 @@ class _RootScreenState extends State<RootScreen> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     checkIsLock();
-    return UserInactivityDetectorWidget(
+    return UserInactivityDetector(
       duration: const Duration(seconds: 3),
       onStopped: () async {
         await service.auth();
