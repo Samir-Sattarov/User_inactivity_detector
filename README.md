@@ -24,6 +24,9 @@ You need to provide it to the root widget
 like bellow
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:user_inactivity_detector/service/timer_service.dart';
+import 'package:user_inactivity_detector/service/timer_service_provider.dart';
 
 class MyApp extends StatelessWidget {  
   const MyApp({Key? key}) : super(key: key);  
@@ -51,7 +54,7 @@ The **onStopped** function will trigger when the user is idle with a delay of 2 
 
 ````dart
 import 'package:flutter/material.dart';
-import 'package:smart_detector/smart_detector_widget.dart';
+import 'package:user_inactivity_detector/user_inactivity_detector.dart';
 
 class Example extends StatelessWidget {
   const Example({Key? key}) : super(key: key);
