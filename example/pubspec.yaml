@@ -3,7 +3,6 @@ description: Example
 
 repository: https://github.com/Samir-Sattarov/User_inactivity_detector.git
 
-
 version: 1.0.0+1
 
 environment:
@@ -21,12 +20,12 @@ dependencies:
     # adding or updating assets for this project.
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons:
+    ^1.0.2
     # Auth using biometrics data
   local_auth: ^2.1.0
   user_inactivity_detector: ^1.0.3
   flutter_bloc: ^8.0.1
-
 
 dev_dependencies:
   flutter_test:
@@ -35,7 +34,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
