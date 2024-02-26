@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.example.smart.smart_detector">
+  package="com.example.user_inactivity_detector">
 </manifest>
